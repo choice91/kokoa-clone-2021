@@ -26,9 +26,12 @@
   font-size: 22px;
 }
 .user-component__subtitle {
+  display: flex;
+  align-items: center;
   margin-top: 8px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
+  position: relative;
 }
 .user-component__title--not--bold {
   font-weight: 400;
@@ -42,4 +45,16 @@
 .user-component__time {
   display: block;
   margin-bottom: 10px;
+}
+.user-component__subtitle span {
+  position: absolute;
+  border: 1px solid tomato;
+  color: tomato;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  right: -25px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
 }
