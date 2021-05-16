@@ -8,7 +8,8 @@
   flex-direction: column;
   align-items: center;
   width: 25%;
-  padding: 20px 0px;
+  padding: 10px 0px;
+  margin-bottom: 15px;
 }
 .icon-row__icon i {
   font-size: 35px;
